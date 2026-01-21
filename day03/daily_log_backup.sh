@@ -4,7 +4,7 @@ set -Eeuo pipefail
 
 readonly SCRIPT_NAME="$(basename "$0")"
 readonly LOG_SOURCE="/var/log"
-readonly BACKUP_BASE="/home/abhi/Desktop/Linux/backups"
+readonly BACKUP_BASE="/home/Desktop/backups"
 readonly DATE="$(date +%F)"
 readonly BACKUP_FILE="logs_backup_${DATE}.tar.gz"
 
